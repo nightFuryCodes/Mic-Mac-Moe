@@ -9,7 +9,7 @@ const cors = require("cors")
 const PORT = 3000
 const io = new Server(server, {
     cors:{
-        origin: 'https://mic-mac-moe.vercel.app/', 
+        origin: 'https://mic-mac-moe.vercel.app', 
         methods: ['GET', 'POST'], 
         credentials: true 
     }
