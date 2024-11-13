@@ -8,7 +8,7 @@ import "./TicTacToe.css"
 import Chatbox from "./Chatbox/Chatbox"
 
 
-const SOCKET_SERVER = "http://localhost:3000"
+const SOCKET_SERVER = "https://mic-mac-moe.onrender.com"
 const socket = io(SOCKET_SERVER, {
   withCredentials: true
 })
